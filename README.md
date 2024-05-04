@@ -2,6 +2,8 @@
 
 In this project, I Implemented a controller that builds a tower of 3 cubes using pose impedance control. The controller can be seen in the figure below.
 
+https://github.com/omarrayyann/pick-and-place-franke/assets/77675540/59ff9784-422d-45f0-a805-6dd6b18f011b
+
 **Controller:**
 
 ![rob-controls-4](https://github.com/omarrayyann/pick-and-place-franke/assets/77675540/f7c700f7-35f6-4855-8ade-2e9af4b3f6cc)
@@ -9,6 +11,7 @@ In this project, I Implemented a controller that builds a tower of 3 cubes using
 **Pose Impedence Controller Equation:**
 
 <img width="400" alt="Screenshot 2024-05-03 at 10 35 37 PM" src="https://github.com/omarrayyann/pick-and-place-franke/assets/77675540/bb81a6ce-7599-4901-96d9-7ba769243a2d">
+
 
 where:
 - $\boldsymbol{\tau} \in \mathbb{R}^7$ is the vector of joint torques
