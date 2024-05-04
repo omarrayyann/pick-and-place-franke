@@ -1,12 +1,14 @@
 # Pick & Place Manipulation
 
-![ezgif com-video-to-gif-converter](https://github.com/omarrayyann/pick-and-place-franke/assets/77675540/229b16d2-e928-4e7c-aa7d-277de382e328)
-
 In this project, I Implemented a controller that builds a tower of 3 cubes using pose impedance control. The controller can be seen in the figure below.
+
+**Controller:**
 
 ![rob-controls-4](https://github.com/omarrayyann/pick-and-place-franke/assets/77675540/f7c700f7-35f6-4855-8ade-2e9af4b3f6cc)
 
-<img width="300" alt="Screenshot 2024-05-03 at 10 35 37 PM" src="https://github.com/omarrayyann/pick-and-place-franke/assets/77675540/bb81a6ce-7599-4901-96d9-7ba769243a2d">
+**Pose Impedence Controller Equation:**
+
+<img width="400" alt="Screenshot 2024-05-03 at 10 35 37 PM" src="https://github.com/omarrayyann/pick-and-place-franke/assets/77675540/bb81a6ce-7599-4901-96d9-7ba769243a2d">
 
 where:
 - $\boldsymbol{\tau} \in \mathbb{R}^7$ is the vector of joint torques
@@ -17,3 +19,7 @@ where:
 - $\text{log}(\cdot)$ computes the matrix logarithm
 - $(\cdot)^\vee$ denotes the vee map, converting a skew-symmetric matrix to a twist vector
 - $\Delta \boldsymbol{V} \in \mathbb{R}^6$ is the twist error vector
+
+**Video:**
+
+![ezgif com-video-to-gif-converter](https://github.com/omarrayyann/pick-and-place-franke/assets/77675540/229b16d2-e928-4e7c-aa7d-277de382e328)
